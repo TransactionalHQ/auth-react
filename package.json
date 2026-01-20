@@ -1,0 +1,58 @@
+{
+  "name": "transactional-auth-react",
+  "version": "0.1.0",
+  "description": "React SDK for Transactional Auth - OpenID Connect authentication for React applications",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "auth",
+    "authentication",
+    "oidc",
+    "openid-connect",
+    "oauth2",
+    "transactional"
+  ],
+  "author": "Transactional",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TransactionalHQ/transactional-auth-react"
+  },
+  "homepage": "https://github.com/TransactionalHQ/transactional-auth-react#readme",
+  "bugs": {
+    "url": "https://github.com/TransactionalHQ/transactional-auth-react/issues"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "oidc-client-ts": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  }
+}

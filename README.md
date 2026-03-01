@@ -1,15 +1,15 @@
-# transactional-auth-react
+# @usetransactional/auth-react
 
 React SDK for Transactional Auth - OpenID Connect authentication for React applications.
 
 ## Installation
 
 ```bash
-npm install transactional-auth-react
+npm install @usetransactional/auth-react
 # or
-yarn add transactional-auth-react
+yarn add @usetransactional/auth-react
 # or
-pnpm add transactional-auth-react
+pnpm add @usetransactional/auth-react
 ```
 
 ## Quick Start
@@ -19,7 +19,7 @@ pnpm add transactional-auth-react
 Wrap your application with the `TransactionalAuthProvider`:
 
 ```tsx
-import { TransactionalAuthProvider } from 'transactional-auth-react';
+import { TransactionalAuthProvider } from '@usetransactional/auth-react';
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
 Use the `useAuth` hook to access authentication state and methods:
 
 ```tsx
-import { useAuth } from 'transactional-auth-react';
+import { useAuth } from '@usetransactional/auth-react';
 
 function LoginButton() {
   const { isAuthenticated, isLoading, loginWithRedirect, logout, user } = useAuth();
@@ -66,7 +66,7 @@ function LoginButton() {
 Use the `AuthGuard` component or `withAuthenticationRequired` HOC:
 
 ```tsx
-import { AuthGuard } from 'transactional-auth-react';
+import { AuthGuard } from '@usetransactional/auth-react';
 
 function ProtectedPage() {
   return (
@@ -80,7 +80,7 @@ function ProtectedPage() {
 Or with the HOC:
 
 ```tsx
-import { withAuthenticationRequired } from 'transactional-auth-react';
+import { withAuthenticationRequired } from '@usetransactional/auth-react';
 
 function Dashboard() {
   return <div>Dashboard content</div>;
@@ -176,7 +176,7 @@ export default withAuthenticationRequired(Component, {
 Use the access token to authenticate API requests:
 
 ```tsx
-import { useAuth } from 'transactional-auth-react';
+import { useAuth } from '@usetransactional/auth-react';
 
 function ApiExample() {
   const { getAccessToken } = useAuth();
@@ -204,7 +204,7 @@ For Next.js 13+ with the App Router, mark components as client components:
 ```tsx
 'use client';
 
-import { TransactionalAuthProvider } from 'transactional-auth-react';
+import { TransactionalAuthProvider } from '@usetransactional/auth-react';
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "transactional-auth-react",
+  "name": "@usetransactional/auth-react",
   "version": "0.1.0",
   "description": "React SDK for Transactional Auth - OpenID Connect authentication for React applications",
   "main": "dist/index.js",
@@ -37,11 +37,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TransactionalHQ/transactional-auth-react"
+    "url": "https://github.com/TransactionalHQ/auth-react.git"
   },
-  "homepage": "https://github.com/TransactionalHQ/transactional-auth-react#readme",
+  "homepage": "https://github.com/TransactionalHQ/auth-react#readme",
   "bugs": {
-    "url": "https://github.com/TransactionalHQ/transactional-auth-react/issues"
+    "url": "https://github.com/TransactionalHQ/auth-react/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0"

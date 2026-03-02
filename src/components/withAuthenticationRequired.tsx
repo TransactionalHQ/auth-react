@@ -21,7 +21,7 @@ export interface WithAuthenticationRequiredOptions {
  *
  * @example
  * ```tsx
- * import { withAuthenticationRequired } from 'transactional-auth-react';
+ * import { withAuthenticationRequired } from '@usetransactional/auth-react';
  *
  * function Dashboard() {
  *   return <div>Dashboard content</div>;

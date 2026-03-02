@@ -13,7 +13,7 @@ import type { TransactionalAuthContextValue } from '../types';
  *
  * @example
  * ```tsx
- * import { useAuth } from 'transactional-auth-react';
+ * import { useAuth } from '@usetransactional/auth-react';
  *
  * function LoginButton() {
  *   const { isAuthenticated, loginWithRedirect, logout, user } = useAuth();

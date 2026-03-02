@@ -5,7 +5,7 @@
  *
  * @example
  * ```tsx
- * import { TransactionalAuthProvider, useAuth, AuthGuard } from 'transactional-auth-react';
+ * import { TransactionalAuthProvider, useAuth, AuthGuard } from '@usetransactional/auth-react';
  *
  * function App() {
  *   return (

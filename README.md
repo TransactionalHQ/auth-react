@@ -1,5 +1,8 @@
 # @usetransactional/auth-react
 
+[![npm version](https://badge.fury.io/js/%40usetransactional%2Fauth-react.svg)](https://www.npmjs.com/package/@usetransactional/auth-react)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 React SDK for Transactional Auth - OpenID Connect authentication for React applications.
 
 ## Installation

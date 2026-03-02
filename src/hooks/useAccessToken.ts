@@ -12,7 +12,7 @@ import { useAuth } from './useAuth';
  *
  * @example
  * ```tsx
- * import { useAccessToken } from 'transactional-auth-react';
+ * import { useAccessToken } from '@usetransactional/auth-react';
  *
  * function ApiComponent() {
  *   const accessToken = useAccessToken();

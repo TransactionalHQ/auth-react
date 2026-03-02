@@ -42,7 +42,7 @@ function mapUser(user: User): TransactionalAuthUser {
  *
  * @example
  * ```tsx
- * import { TransactionalAuthProvider } from 'transactional-auth-react';
+ * import { TransactionalAuthProvider } from '@usetransactional/auth-react';
  *
  * function App() {
  *   return (

@@ -17,7 +17,7 @@ interface UseUserResult {
  *
  * @example
  * ```tsx
- * import { useUser } from 'transactional-auth-react';
+ * import { useUser } from '@usetransactional/auth-react';
  *
  * function Profile() {
  *   const { user, isLoading } = useUser();

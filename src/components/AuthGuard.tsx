@@ -23,7 +23,7 @@ export interface AuthGuardProps {
  *
  * @example
  * ```tsx
- * import { AuthGuard } from 'transactional-auth-react';
+ * import { AuthGuard } from '@usetransactional/auth-react';
  *
  * function ProtectedPage() {
  *   return (

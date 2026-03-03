@@ -223,7 +223,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
 ## Documentation
 
-Full documentation is available at [usetransactional.com/docs/auth](https://usetransactional.com/docs/auth)
+Full documentation is available at [usetransactional.com/docs/sdks/auth/react](https://usetransactional.com/docs/sdks/auth/react)
 
 ## License
 
